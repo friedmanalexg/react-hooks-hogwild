@@ -5,7 +5,6 @@ function RenderPigTile(props) {
     const onClick = () => setPiggyCard(true);
     const PigStats = () => <ul>
                         <li>Specialty: {props.specialty}</li>
-                        <li>Greased? {props.greased}</li>
                         <li>Weight: {props.weight}</li>
                         <li className = "achievementText">Awards: {props.medal}</li>
                      </ul>   
@@ -18,7 +17,5 @@ function RenderPigTile(props) {
       );
 
 }
-
-// {piggyCard ? <Component /> : null}
 
 export default RenderPigTile;
