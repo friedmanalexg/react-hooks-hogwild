@@ -10,6 +10,10 @@ function App() {
       			key={hogObj.name} 
       			name={hogObj.name} 
       			image={hogObj.image} 
+				weight={hogObj.weight}
+				greased = {hogObj.greased}
+				specialty = {hogObj.specialty}
+				medal = {hogObj["highest medal achieved"]}
       		/>
 		)
 	});
@@ -24,5 +28,4 @@ function App() {
 	);
 }
 
-// RenderPigTile(hogs.map);
 export default App;
